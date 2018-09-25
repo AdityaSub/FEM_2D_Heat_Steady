@@ -1,2 +1,2 @@
 # FEM_2D_Heat_Steady
-2D finite-element solver for steady-state heat transfer
+2D finite-element solver for steady-state heat transfer; uses linear basis functions but the code is written to be easily modularizable; currently supports square and circular domains, but this can be extended to arbitrary geometries by modifying Dirichlet conditions in 'Mesh.cpp'; the solver uses 'eigen' and 'PETSc' libraries; this code is meant to serve as an instructional example only
